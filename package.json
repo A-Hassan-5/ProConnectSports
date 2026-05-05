@@ -3,16 +3,33 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "expo start",
+    "start":   "expo start",
     "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "ios":     "expo start --ios",
+    "web":     "expo start --web",
+    "test":    "jest --testPathPattern=userStories --verbose"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^3.0.2",
+    "@react-native-community/datetimepicker": "8.4.4",
+    "@react-navigation/bottom-tabs": "^7.15.9",
+    "@react-navigation/native": "^7.2.2",
+    "@react-navigation/native-stack": "^7.14.10",
     "expo": "~54.0.33",
+    "expo-location": "~19.0.7",
     "expo-status-bar": "~3.0.9",
+    "firebase": "^12.12.0",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "^5.6.0",
+    "react-native-screens": "^4.16.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^12.4.3",
+    "jest": "^29.7.0",
+    "jest-expo": "~54.0.0",
+    "react-test-renderer": "19.1.0"
   },
   "private": true
 }
