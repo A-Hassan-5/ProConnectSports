@@ -157,23 +157,3 @@ Scan the QR code with Expo Go (Android) or the Camera app (iOS). Make sure your 
 | `matches` | Stores all matches — sport, location, time, slots, status |
 
 ---
-
-## 👥 Team
-
-| Name | CMS | Role |
-|---|---|---|
-| Muhammad Ali Usman | 454389 | Developer |
-| Syed M Abdullah Rashid | 467072 | Team Member |
-| Fahad Abbass | 469120 | Team Member |
-| Noor Fatima | 454751 | Team Member |
-
-**Group:** 04 | **Class:** BSCS-13B  
-**Course:** Software Engineering (SE-200)  
-**Instructor:** Dr. Gibrail Islam  
-**University:** NUST — School of Electrical Engineering and Computer Sciences
-
----
-
-## 📄 License
-
-This project was built as a course project for SE-200 at NUST SEECS.
