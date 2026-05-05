@@ -4,12 +4,6 @@ A cross-platform mobile application built with **React Native (Expo)** that conn
 
 ---
 
-## 📱 Screenshots
-
-> Add screenshots of your app here after building
-
----
-
 ## 🚀 Features
 
 ### Authentication & Security
@@ -69,10 +63,10 @@ ProConnectSports/
 │   ├── CreateMatchScreen.js      # Create and post a match
 │   ├── LeaderboardScreen.js      # Player rankings
 │   ├── ProfileScreen.js          # User profile and stats
+│   ├── NotificationsScreen.js    # User notifications about matches
 │   └── AdminScreen.js            # Admin moderation panel
-└── components/
-    ├── MatchCard.js              # Reusable match card component
-    └── SportFilter.js            # Sport filter pill component
+└── __tests__/
+    └── userStories.test.js       # Unit test module for 3 main user stories
 ```
 
 ---
@@ -163,25 +157,6 @@ Scan the QR code with Expo Go (Android) or the Camera app (iOS). Make sure your 
 **Course:** Software Engineering (SE-200)  
 **Instructor:** Dr. Gibrail Islam  
 **University:** NUST — School of Electrical Engineering and Computer Sciences
-
----
-
-## 📋 Development Process
-
-This project follows **Agile Scrum** methodology with two MVPs:
-
-### MVP 1 — Core Features
-- Auth flow (register, login, guest)
-- Match feed with sport filtering
-- Create and join matches
-- Leaderboard and profile screens
-
-### MVP 2 — Backend & Admin
-- Firebase real-time database integration
-- Real authentication with CNIC verification
-- Admin panel with moderation tools
-- Push notifications
-- Persistent data across sessions
 
 ---
 
