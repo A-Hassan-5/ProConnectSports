@@ -65,6 +65,19 @@ ProConnectSports/
 │   ├── ProfileScreen.js          # User profile and stats
 │   ├── NotificationsScreen.js    # User notifications about matches
 │   └── AdminScreen.js            # Admin moderation panel
+├── assets/
+│   ├── splash-icon.jpg       
+│   ├── icon.jpg        
+│   ├── favicon.jpg     
+│   └── adaptive-icon.jpg
+├── contexts/
+│   └── AuthContext.js            # Realtime auth + user profile
+├── app.json                      # App config and permissions setup
+├── index.js                      # App entry point setup
+├── jest.config.js                # Jest Expo testing config
+├── jest.setup.js                 # Mute warnings + mock modules
+├── package-lock.json             # Dependency tree + version lock
+├── package.json                  # Project scripts + dependencies
 └── __tests__/
     └── userStories.test.js       # Unit test module for 3 main user stories
 ```
