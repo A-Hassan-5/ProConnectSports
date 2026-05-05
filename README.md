@@ -78,6 +78,7 @@ ProConnectSports/
 ├── jest.setup.js                 # Mute warnings + mock modules
 ├── package-lock.json             # Dependency tree + version lock
 ├── package.json                  # Project scripts + dependencies
+├── README.md
 └── __tests__/
     └── userStories.test.js       # Unit test module for 3 main user stories
 ```
